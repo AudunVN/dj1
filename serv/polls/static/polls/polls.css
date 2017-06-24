@@ -1,0 +1,33 @@
+li a {
+	color: #285AA1;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+li:before {
+	position: relative;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(images/x.png);
+    background-size: contain;
+    background-position: center center;
+    bottom: -0.15em;
+}
+
+body {
+	background: url("images/graphy-dark.png") white;
+}
